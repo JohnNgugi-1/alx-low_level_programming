@@ -9,11 +9,11 @@ int main(void)
 	char ch;
 	char cH;
 
-        for (ch = 'a'; ch <= 'z'; ch++)
-                putchar(ch);
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
 	for (cH = 'A'; cH <= 'Z'; cH++)
-                putchar(cH);
-        putchar('\n');
-        return (0);
+		putchar(cH);
+	putchar('\n');
+	return (0);
 }
 
