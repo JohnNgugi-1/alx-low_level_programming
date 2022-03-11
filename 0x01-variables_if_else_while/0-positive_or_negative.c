@@ -5,7 +5,8 @@
 /* betty style doc for function main goes there */
 /*
  * main - function
- * Description: positive_or_negative
+ * Description: Get a random number and print the number
+ * and if it is positive, negative, or zero
  * return value : 0
  */
 int main(void)
