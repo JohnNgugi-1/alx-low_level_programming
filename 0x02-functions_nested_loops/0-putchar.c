@@ -5,9 +5,10 @@
  * Description: print out _putchar
  * Return: _putchar
  */
-char main()
+int main()
 {
-	header();
+	int _putchar('_');
+	int _putchar('p');
 	return(0);
 }
 
