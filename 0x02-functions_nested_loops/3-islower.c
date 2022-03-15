@@ -10,6 +10,8 @@
 int _islower(int c)
 {
 	char k;
+	while (c > 0)
+	{
 	if (k >= 'a' && k <= 'z')
 	{
 		return (1);
@@ -17,5 +19,7 @@ int _islower(int c)
 	else
 	{
 		return (0);
+	}
+	c++;
 	}
 }
