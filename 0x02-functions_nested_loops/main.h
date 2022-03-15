@@ -5,7 +5,7 @@
  */
 char header()
 {
-	putchar("_");
+	putchar((int)"_");
 	putchar("p");
 	putchar("u");
 	putchar("t");
