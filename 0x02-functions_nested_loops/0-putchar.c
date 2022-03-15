@@ -8,6 +8,6 @@
 int main()
 {
 	putchar("_putchar\n");
-	retutn(0);
+	return(0);
 }
 
