@@ -11,18 +11,13 @@ int _islower(int c)
 {
 	int p;
 
-	while (c > 0)
+	if (c >= 'a' && c <= 'z')
 	{
-		char k = 'a';
-		if (k >= 'a' && k <= 'z')
-		{
-		p = 1;
-		}
-		else
-		{
-		p = 0;
-		}
-		c++;
+	p = 1;
+	}
+	else
+	{
+	p = 0;
 	}
 	return (p);
 }
