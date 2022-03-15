@@ -5,7 +5,7 @@
  * Description: header file for main function
  * Return: void
  */
-void main()
+void header()
 {
 	return;
 }
