@@ -13,7 +13,7 @@ int _islower(int c)
 
 	while (c > 0)
 	{
-		char k;
+		char k = 'a';
 		if (k >= 'a' && k <= 'z')
 		{
 		p = 1;
