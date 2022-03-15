@@ -7,7 +7,7 @@
  */
 int main()
 {
-	int _putchar(‘_’);
+	int _putchar(' _');
 	int _putchar (' p');
 	return(0);
 }
