@@ -10,7 +10,7 @@ int main(void)
 	int i = 0;
 	long int a = 0, b = 1, next = 0;
 
-	while (i < 95)
+	while (i < 85)
 	{
 		next = a + b;
 		a = b;
