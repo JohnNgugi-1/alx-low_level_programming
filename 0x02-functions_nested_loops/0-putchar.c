@@ -7,8 +7,7 @@
  */
 int main()
 {
-	char *str = "_putchar\n";
-	putchar(str);
+	header();
 	return(0);
 }
 
