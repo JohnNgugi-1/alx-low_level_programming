@@ -5,10 +5,16 @@
  * Description: print out _putchar
  * Return: _putchar
  */
-int main()
+int main(void)
 {
-	int _putchar(char '_') ;
-	int _putchar(char 'p');
+	char c[9] = "_putchar";
+	int i = 0;
+	while (i < 8)
+	{
+		_putchar(c[i]);
+		i++;
+	}
+	_putchar('\n');
 	return(0);
 }
 
