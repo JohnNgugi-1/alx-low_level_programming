@@ -5,7 +5,7 @@
  * Description: print out _putchar
  * Return: _putchar
  */
-int main()
+char main()
 {
 	header();
 	return(0);
