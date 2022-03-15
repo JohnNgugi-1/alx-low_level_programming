@@ -3,7 +3,7 @@
 
 /**
  * _islower - function
- * @c - parameter
+ * @c : parameter
  * Decsription: returns 1 if char is lowercase and 0 otherwise
  * Return: 0 or 1
  */
