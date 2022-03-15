@@ -2,8 +2,8 @@
 #include "main.h"
 /**
  * main: function
- * Description: print out _putchar
- * Return: _putchar
+ * Description: print char via putchar
+ * Return: 0
  */
 int main (void)
 {
