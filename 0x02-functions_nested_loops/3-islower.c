@@ -2,7 +2,8 @@
 #include "main.h"
 
 /**
- * _islower(int c) - function
+ * _islower - function
+ * c - parameter
  * Decsription: returns 1 if char is lowercase and 0 otherwise
  * Return: 0 or 1
  */
