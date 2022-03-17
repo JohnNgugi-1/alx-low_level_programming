@@ -7,17 +7,5 @@
 
 int _isupper(int c)
 {
-	int k;
-	k = 0;
-
-	if (c >= 65 && c <= 90)
-	{
-		k = 1;
-	}
-	else
-	{
-		k = 0;
-	}
-
-	return (k);
+	return (c >= 65 && c <= 90);
 }
