@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * _strlen - function
@@ -8,5 +9,5 @@
 
 int _strlen(char *s)
 {
-	return (strlen(*p))
+	return (strlen(*s));
 }
