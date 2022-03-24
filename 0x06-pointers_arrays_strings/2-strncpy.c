@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncat - function
+ * _strncpy - function
  * @dest : string
  * @src : string
  * @n : integer
