@@ -8,7 +8,7 @@
  * Return: @dest + @src
  */
 
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
         int length, j;
 
@@ -21,7 +21,7 @@ char *_strcat(char *dest, char *src)
         {
                 dest[length] = src[j];
         }
-	if (strlen(src) !>= n)
+	if (strlen(src) < n)
 	{
 		dest[length] = '\0';
 	}
