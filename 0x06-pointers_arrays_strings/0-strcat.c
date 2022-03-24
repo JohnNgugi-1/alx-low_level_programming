@@ -25,5 +25,5 @@ char *_strcat(char *dest, char *src)
 	_putchar("%s", dest);
 	con = &dest
 
-	return (con);
+	return (dest);
 }
