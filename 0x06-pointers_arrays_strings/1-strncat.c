@@ -1,8 +1,6 @@
 #include "main.h"
-#include <string.h>
-
 /**
- * _strcat - function
+ * _strncat - function
  * @dest : first string
  * @src : second string
  * @n : number of bytes
