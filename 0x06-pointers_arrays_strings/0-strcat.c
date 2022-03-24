@@ -9,7 +9,6 @@
 
 char *_strcat(char *dest, char *src)
 {
-	char *con;
 	int length, j;
 
 	length = 0;
@@ -22,8 +21,6 @@ char *_strcat(char *dest, char *src)
 		dest[length] = src[j];
 	}
 	dest[length] = '\0';
-	_putchar("%s", dest);
-	con = &dest
 
 	return (dest);
 }
