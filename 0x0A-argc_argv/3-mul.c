@@ -17,9 +17,9 @@ int main(int argc, char *argv[])
 
 	if (argc == 3)
 	{
-		int i = atoi(argv[1]);
-		int j = atoi(argv[2]);
-		int result = i * j;
+		i = atoi(argv[1]);
+		j = atoi(argv[2]);
+		result = i * j;
 		printf("%d\n", result);
 
 		return (0);
