@@ -16,8 +16,8 @@ int main(int argc, char *argv[])
 
 	if (argc == 3)
 	{
-		i = argv[1];
-		j = argv[2];
+		int i = argv[1];
+		int j = argv[2];
 		int result = i * j;
 		printf("%d\n", result);
 	}
