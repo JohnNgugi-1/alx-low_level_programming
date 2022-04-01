@@ -5,12 +5,13 @@
  * main - function
  * @argc: contains argument count
  * @argv: contains argument values
- * Return: integer to be returned
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
 {
-	print("%s\n", argv[argc -1]);
+	(void) argc;
+	print("%s\n", argv[0]);
 
 	return (0);
 }
