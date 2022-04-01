@@ -3,8 +3,8 @@
 
 /**
  * main - function
- * argc: contains argument count
- * argv: contains argument values
+ * @argc: contains argument count
+ * @argv: contains argument values
  * Return: integer to be returned
  */
 
