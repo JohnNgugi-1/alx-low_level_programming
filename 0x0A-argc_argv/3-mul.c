@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 	int j;
 	int result;
 
-	if (argc = 3)
+	if (argc == 3)
 	{
 		i = argv[1];
 		j = argv[2];
