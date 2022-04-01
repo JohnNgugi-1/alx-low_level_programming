@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -14,10 +15,10 @@ int main(int argc, char *argv[])
 	int j;
 	int result;
 
-	if (argc == 3)
+	if (argc = 3)
 	{
-		int i = argv[1];
-		int j = argv[2];
+		int i = atoi(argv[1]);
+		int j = atoi(argv[2]);
 		int result = i * j;
 		printf("%d\n", result);
 	}
