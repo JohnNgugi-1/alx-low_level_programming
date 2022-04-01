@@ -2,9 +2,9 @@
 
 /**
  * main - function
- * argc : contains argument count
- * argv : contains argument values
- * Return : integer to be returned
+ * argc: contains argument count
+ * argv: contains argument values
+ * Return: integer to be returned
  */
 
 int main(int argc, char* argv[])
