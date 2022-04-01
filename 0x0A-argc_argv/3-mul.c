@@ -21,11 +21,12 @@ int main(int argc, char *argv[])
 		int j = atoi(argv[2]);
 		int result = i * j;
 		printf("%d\n", result);
+
+		return (0);
 	}
 	else
 	{
 		printf("Error\n");
+		return (1);
 	}
-
-	return (1);
 }
