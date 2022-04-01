@@ -8,9 +8,9 @@
  * Return: integer to be returned
  */
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
-	print("%s\n", *argv);
+	print("%s\n", argv[0]);
 
 	return (0);
 }
